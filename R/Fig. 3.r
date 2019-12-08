@@ -59,14 +59,14 @@ plot(w*100, g, type = "l",
      col = "red"
 )
 #single power
-data1 <- gw1(w)
-lines(w*100, data1, lty = 1, col = "darkgreen")
+#data1 <- gw1(w)
+#lines(w*100, data1, lty = 1, col = "darkgreen")
 #double power
-data2 <- gw2(w)
-lines(w*100, data2, lty = 2, col = "blue")
+#data2 <- gw2(w)
+#lines(w*100, data2, lty = 2, col = "blue")
 
-Legend = c("Optimal function", "Single-term power function", "Double-term power function")
-legend("topleft", Legend, lty = c(1, 1, 2), col = c("red", "darkgreen", "blue"))
+#Legend = c("Optimal function", "Single-term power function", "Double-term power function")
+#legend("topleft", Legend, lty = c(1, 1, 2), col = c("red", "darkgreen", "blue"))
 
 box()
 
